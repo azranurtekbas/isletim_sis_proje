@@ -19,6 +19,8 @@ extern int bg_pid_count;
 
 // Fonksiyon prototipleri
 void execute_command(char *command);
+void execute_pipe_command(char* komut);
+void execute_sequential_command(char* komut);
 void check_background_processes();
 
 #endif // SHELL_H
